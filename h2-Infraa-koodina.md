@@ -13,19 +13,18 @@
   - Muisti 4 GB
   - Tila 80 GB
 
-
 ## Tiivistelmä
 
 ### Karvinen 2014: Hello Salt Infra-as-Code
 - Artikkelissa käydään läpi, kuinka saadaan tehtyä idempotentti scripti.
 
 ### Salt contributors: Salt overview
-- YAMLin pikaperusteet
+- YAMLin pikaperusteet.
 
 ### Salt contributors: The top file
-- Top file -käsitteen nopea esittely
+- Top file -käsitteen nopea esittely.
   
-## a)
+## a) Hei infrakoodi!
 
 Kaikki meni todella suoraviivaisesti ja helposti ohjeiden mukaan. Ensin tein *hello* -kansion, jonka jälkeen kirjoitin *init.sls* -tiedostoon:
 
@@ -45,17 +44,47 @@ Ja vielä idempotentin testaus:
 
 Kaikki hyvin!
 
-## b)
+## b) Toppping
 
 Tein *top-filen*:
 
 <img width="338" height="44" alt="Screenshot 2025-10-31 at 11 38 20" src="https://github.com/user-attachments/assets/2bca9787-2c12-454d-bd92-a0c90139cae2" />
 
-## c)
+## c) Viisikko tiedostossa
+
+***File*** on tehtynä jo "Hello world" esimerkissä.
+
+***pkg*** on valmiina, kun tein tunnilla esimerkkiä seuraten httpie asennuksen.
+
+***service*** toteutin Apache2 toiminnan varmistuksen YAMLilla init.sls tiedostoon:
+
+<img width="229" height="65" alt="Screenshot 2025-10-31 at 13 32 38" src="https://github.com/user-attachments/assets/917c5e10-2afd-42e5-b893-da11f2c54210" />
+
+***user*** tein samaan tapaan:
+
+<img width="166" height="63" alt="Screenshot 2025-10-31 at 13 45 09" src="https://github.com/user-attachments/assets/5c38b55e-ad13-40cc-b955-10a01263fa56" />
+
+***cmd*** 
+
+---Ongelma---
+
+Ääkkösten käyttö init.sls tiedostossa sai minut etsimään tapaa, jolla muuntaisin systeemini käyttämään UTF-8. Huomasin myös, että UTF-8 ei ole nanollakaan käytössä. ***localella*** varmistin UTF-8 olevan kuitenkin muuten käytössä. 
+
+Sukellus oli liian syvä, enkä saanut vastausta. Teen jotain yksinkertaisempaa.
+
+---Ongelma---
+
+<img width="505" height="67" alt="Screenshot 2025-10-31 at 14 31 50" src="https://github.com/user-attachments/assets/08b39d58-2aa4-426e-b48c-bbef43981b21" />
+
+## d)
+
+Tilanne jää siihen, etten saa top.sls tiedoston kaveriksi tehtyä toista .sls tiedostoa, johon laittaisin eri komennot.
 
 ## Lähteet
 
 Karvinen 2014, https://terokarvinen.com/2024/hello-salt-infra-as-code/
+
+Salt Project, https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml
 
 Salt Project, https://docs.saltproject.io/en/latest/ref/states/top.html
 
