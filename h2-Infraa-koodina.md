@@ -78,7 +78,12 @@ Sukellus oli liian syvä, enkä saanut vastausta. Teen jotain yksinkertaisempaa.
 
 ## d)
 
-Tilanne jää siihen, etten saa top.sls tiedoston kaveriksi tehtyä toista .sls tiedostoa, johon laittaisin eri komennot.
+En saanut *top.sls* tiedoston kaveriksi toimimaan toista *.sls* tiedostoa, joten laitoin vain ***topin*** ajamaan kahta tilaa:
+
+<img width="504" height="433" alt="Screenshot 2025-11-02 at 14 25 33" src="https://github.com/user-attachments/assets/75c35e81-d731-4a2f-bd50-ca2ed001321d" />
+
+Ja siinä tuleekin samalla todennettua idempotenttius, koska olin jo ajanut nuo ne tehdessäni.
+
 
 ## Lähteet
 
