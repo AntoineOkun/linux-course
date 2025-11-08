@@ -27,11 +27,36 @@
 
 ## a)
 
-- Ensin asennan Vagrantin *https://developer.hashicorp.com/vagrant/install*
-
+- Ensin asennan Vagrantin *https://developer.hashicorp.com/vagrant/install* -sivustolta ja sieltä löytyvällä Ubuntu/Debian kohdan komennolla.
+    - Asennus näyttää onnistuneen:
+      
+      <img width="307" height="44" alt="Screenshot 2025-11-08 at 11 06 53" src="https://github.com/user-attachments/assets/6d9a86fc-3fcc-41db-9f44-38ce6b10585e" />
 
 ## b)
 
+- Teen ensin projektilleni uuden kansion ohjeen (Karvinen, 2021) mukaan:
+  
+<img width="401" height="44" alt="Screenshot 2025-11-08 at 11 11 19" src="https://github.com/user-attachments/assets/99190cf0-d967-4372-a3fa-9df74483e3f3" />
+
+ja kopioin tekemääni Vagrantfile -tekstitiedostoon samaisesta ohjeesta scriptin, joka pystyttää minulle kaksi virtuaalikonetta.
+
+- Niitä ajaessani huomaan, että skippasin alussa VirtualBoxin asennuksen. Tämä aiheuttaa todella paljon päänvaivaa:
+  - Tein ensin ohjeiden mukaan ja mitään ei tapahtunut
+  - Sitten yritin muutella ensimmäisen kohdan lataus -osion osoitetta, mutta niinkään en onnistunut.
+  - En ole vielä tottunut tarpeeksi tähän raportointi- ja lokityyliin, joten kohdatessani tällaisia ongelmia, jätän kirjoittamisen ja alan brutforsaamaan ratkaisua.
+  - Seurailin kuitenkin jälkiäni mahdollisimman tarkasti takaisin ja yritin kumota kaiken.
+ 
+- Koska en onnistunut tässä millään, kysyin ChatGPT:ltä kuinka voisin saada puuttuvan libvirtin Debianille. Tässä sen neuvot:
+  - Ensin *sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients ebtables dnsmasq*
+  - Sitten *vagrant plugin install vagrant-libvirt*
+  - Ja sitten bootti
+
+- Tällä kertaa pääsin *vagrant up* -komennolla hiukan pidemmälle, mutta lopulta error sai.
+
+- Virheitä virheiden perään. Pitää yrittää myöhemmin.
+
+
+- 
 ## c)
 
 ## d)
