@@ -71,19 +71,43 @@ Sitten apassi, saltin ja vagrantin asennus... ja takaisin tehtävänantoihin:
 
 ## a)
 
+- ***No niiiiin*** yritän asentaa Vagrantin ohjeiden mukaan ja katsotaan kuinka käy. Se onnistu hienosti:
+
+  <img width="318" height="62" alt="Screenshot 2025-11-09 at 16 21 05" src="https://github.com/user-attachments/assets/65be73a3-2160-4d6f-b769-cb2bbc304540" />
+
+- Virtualboxin kanssa on tälläkin kierroksella ongelmia! Olen neuvoton jatkamaan, mutta teen kuitenkin vielä *Vagrantfile*n ja ajamisen jälkeen näyttää tutulta:
+
+  <img width="1090" height="400" alt="Screenshot 2025-11-09 at 16 31 22" src="https://github.com/user-attachments/assets/b38a6156-cc2d-416a-88a4-c20bf3d807e2" />
+
+Lähden taa vähän matkaa seuraamaan tätä loputonta showta ja katsotaan, mitä saa:
+
+  <img width="883" height="41" alt="Screenshot 2025-11-09 at 16 36 54" src="https://github.com/user-attachments/assets/15d74737-4fe3-41f5-b43e-5e285202d87b" />
+  
+  Ensimmäinen ohje. Katsotaan, mitä siitä seuraa:
+
+  <img width="684" height="190" alt="Screenshot 2025-11-09 at 16 38 57" src="https://github.com/user-attachments/assets/0e16c6ac-07a7-476f-a411-c4b51c29097f" />
+
+  Sentään jotain uutta. Auttoiko se *Vagrantfilen* ajamisessa:
+
+  <img width="1099" height="404" alt="Screenshot 2025-11-09 at 16 40 14" src="https://github.com/user-attachments/assets/fc80692e-e8d9-4e03-bf1e-bb71e34e414e" />
+
+  Ei auttanut.
+
+  Tämä riittää minulle tällä kertaa.
 
 
 ## b)
 
+**---**
 
 
 ## c)
 
-
+**---**
 
 ## d)
 
-
+**---**
 
 ## Lähteet:
 
