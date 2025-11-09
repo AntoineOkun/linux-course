@@ -26,7 +26,7 @@
 
 
 
-# -------------- Erheeni ----------------
+# -------------------- Erheeni alku ----------------------
 
 ## a)
 
@@ -58,23 +58,41 @@ ja kopioin tekemääni Vagrantfile -tekstitiedostoon samaisesta ohjeesta scripti
 
 - Virheitä virheiden perään. Pitää yrittää myöhemmin.
 
-# -------------- Erheeni ----------------
+# -------------------- Erheeni loppu ----------------------
 
 Aloitin ***kaiken*** alusta. Asensin VirtualBoxille Macille sopivan Debian 13 järjestelmän. Taistelin sen kanssa hetken. Live -käyttistä ei ole Trixiellä armille. En saanut vaihdettua US näppäimistöä, en saanut "enabloitua" edes sudoa.
 
 Siirryin siispä takaisin samalle polulle, jonka olen jo aikaisemmin kulkenut, ja latasin itselleni uudelleen UTM:lle ja Macille sopivan Debian 12 -järjestelmän kuvan. Teen siitä heti aluksi kopion, jotta voin aloittaa helpommin tyhjästä tarvittaessa uudelleen.
 
+Aloitan urakan asentamalla Linux-komentojen kertaussivuston(Karvinen 2020) lopusta litanjan ohjelmia.
+  - En todellakaan tiedä, mikä on nyt eri tavoin, mutta heti kärkeen esimerkiksi *tree*n asennuksen jälkeen tree toimii, eikä näytä jotain jänniä ääkkösiä viivain tilalla.
+Sitten apassi, saltin ja vagrantin asennus... ja takaisin tehtävänantoihin:
 
 
-- 
+## a)
+
+
+
+## b)
+
+
+
 ## c)
 
+
+
 ## d)
+
+
 
 ## Lähteet:
 
 Vagrantin asennus, [https://developer.hashicorp.com/vagrant/install]
 
 ChatGPT, [https://openai.com]
+
+Karvinen, 2020: [https://terokarvinen.com/2020/command-line-basics-revisited/]
+
+
 
 
