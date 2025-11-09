@@ -26,7 +26,7 @@
 
 
 
-# -------------- Erheeni ---------------- #
+# -------------- Erheeni ----------------
 
 ## a)
 
@@ -58,11 +58,13 @@ ja kopioin tekemääni Vagrantfile -tekstitiedostoon samaisesta ohjeesta scripti
 
 - Virheitä virheiden perään. Pitää yrittää myöhemmin.
 
-# -------------- Erheeni ---------------- #
+# -------------- Erheeni ----------------
 
 Aloitin ***kaiken*** alusta. Asensin VirtualBoxille Macille sopivan Debian 13 järjestelmän. Taistelin sen kanssa hetken. Live -käyttistä ei ole Trixiellä armille. En saanut vaihdettua US näppäimistöä, en saanut "enabloitua" edes sudoa.
 
-Siirryin siispä takaisin samalle polulle, jonka olen jo aikaisemmin kulkenut, ja latasin itselleni uudelleen UTM:lle ja Macille sopivan Debian 12 -järjestelmän kuvan.
+Siirryin siispä takaisin samalle polulle, jonka olen jo aikaisemmin kulkenut, ja latasin itselleni uudelleen UTM:lle ja Macille sopivan Debian 12 -järjestelmän kuvan. Teen siitä heti aluksi kopion, jotta voin aloittaa helpommin tyhjästä tarvittaessa uudelleen.
+
+
 
 - 
 ## c)
@@ -71,4 +73,8 @@ Siirryin siispä takaisin samalle polulle, jonka olen jo aikaisemmin kulkenut, j
 
 ## Lähteet:
 
-Vagrantin asennus: [https://developer.hashicorp.com/vagrant/install]
+Vagrantin asennus, [https://developer.hashicorp.com/vagrant/install]
+
+ChatGPT, [https://openai.com]
+
+
