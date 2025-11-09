@@ -25,6 +25,9 @@
 - Esimerkki siitä, kuinka tehdään kaikkia orjia koskeva tervehdys, ja kuinka ne tuhotaan.
 
 
+
+# -------------- Erheeni ---------------- #
+
 ## a)
 
 - Ensin asennan Vagrantin *https://developer.hashicorp.com/vagrant/install* -sivustolta ja sieltä löytyvällä Ubuntu/Debian kohdan komennolla.
@@ -55,6 +58,11 @@ ja kopioin tekemääni Vagrantfile -tekstitiedostoon samaisesta ohjeesta scripti
 
 - Virheitä virheiden perään. Pitää yrittää myöhemmin.
 
+# -------------- Erheeni ---------------- #
+
+Aloitin ***kaiken*** alusta. Asensin VirtualBoxille Macille sopivan Debian 13 järjestelmän. Taistelin sen kanssa hetken. Live -käyttistä ei ole Trixiellä armille. En saanut vaihdettua US näppäimistöä, en saanut "enabloitua" edes sudoa.
+
+Siirryin siispä takaisin samalle polulle, jonka olen jo aikaisemmin kulkenut, ja latasin itselleni uudelleen UTM:lle ja Macille sopivan Debian 12 -järjestelmän kuvan.
 
 - 
 ## c)
