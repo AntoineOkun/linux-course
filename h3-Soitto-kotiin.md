@@ -26,7 +26,7 @@
 
 
 
-# -------------------- Erheeni alku ----------------------
+**-------------------- Erheeni alku ----------------------**
 
 ## a)
 
@@ -58,7 +58,7 @@ ja kopioin tekemääni Vagrantfile -tekstitiedostoon samaisesta ohjeesta scripti
 
 - Virheitä virheiden perään. Pitää yrittää myöhemmin.
 
-# -------------------- Erheeni loppu ----------------------
+**-------------------- Erheeni loppu ----------------------**
 
 Aloitin ***kaiken*** alusta. Asensin VirtualBoxille Macille sopivan Debian 13 järjestelmän. Taistelin sen kanssa hetken. Live -käyttistä ei ole Trixiellä armille. En saanut vaihdettua US näppäimistöä, en saanut "enabloitua" edes sudoa.
 
