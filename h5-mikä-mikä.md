@@ -1,0 +1,23 @@
+# Mikämikömikä
+
+## Ympäristö
+
+### Fyysinen kone
+
+- MacBook Air M3
+
+### Virtuaali kone
+
+- UTM
+- Debian 12 (bookworm)
+  - Muisti 4 GB
+  - Tila 80 GB
+
+## Tiivistelmä
+
+
+## a)
+
+
+
+## Lähteet
