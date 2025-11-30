@@ -20,11 +20,7 @@
 
 ## Rakentaminen
 
-- Rakentaminen oli minulle todella vaikeaa. Yritin monituisesti saada toista konetta luotua kloonaten ja yksilöiden asetuksia, mutta turhaan; en saanut klooni koneita alkuasetuksia pidemmälle,
-  koska alkuperäisessä "koneessa" oli jotain korruptoitunut tai kloonaus korruptoi kloonit. Latasin sitten moneen vaiheen jälkeen uuden "kuvan" ja sain sen onneksi ylös ja testikuntoon. Ja parahiksi näin,
-  sillä init.sls -tiedostot olivat toiminnassa.
-  
-  <img width="254" height="148" alt="Screenshot 2025-11-30 at 18 30 04" src="https://github.com/user-attachments/assets/0b146323-a5a5-43db-be4f-56fcf7ef4889" />
+
 
 - Ensin tein asennus kansion, jossa init.sls -tiedosto hoitaa tarvittavan Samban ja UFW:n asennukset:
 
@@ -45,6 +41,12 @@ Lopulta laitoin kaikki komennot seuraavan kaltaiseen muotoon:
 <img width="415" height="84" alt="Screenshot 2025-11-30 at 18 34 20" src="https://github.com/user-attachments/assets/9b1003d2-7431-4958-ab2c-b448d476e7aa" />
 
 Ja kaikki toimi.
+
+- Rakentaminen oli minulle todella vaikeaa. Yritin monituisesti saada toista konetta luotua kloonaten ja yksilöiden asetuksia, mutta turhaan; en saanut klooni koneita alkuasetuksia pidemmälle,
+  koska alkuperäisessä "koneessa" oli jotain korruptoitunut tai kloonaus korruptoi kloonit. Latasin sitten moneen vaiheen jälkeen uuden "kuvan" ja sain sen onneksi ylös ja testikuntoon. Ja parahiksi näin,
+  sillä init.sls -tiedostot olivat toiminnassa.
+  
+  <img width="254" height="148" alt="Screenshot 2025-11-30 at 18 30 04" src="https://github.com/user-attachments/assets/0b146323-a5a5-43db-be4f-56fcf7ef4889" />
 
 ## Lähteet
 
