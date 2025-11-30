@@ -48,6 +48,9 @@ Ja kaikki toimi.
   
   <img width="254" height="148" alt="Screenshot 2025-11-30 at 18 30 04" src="https://github.com/user-attachments/assets/0b146323-a5a5-43db-be4f-56fcf7ef4889" />
 
+- Koska kaikki testimme eri koneilla eivät tuottaneet puhdasta tulosta, aloimme vielä tutkia mahdollisuutta saada top-fileen eri komentoja minioneille ja mastereille. Sellaista ratkaisua emme saaneet tässä ajassa kekattua, joten vain poistimme UFW:n konfigurointi osuudesta Saltin sallimisen: se aiheutti virheilmoituksia minion koneilla, mutta ei sellaisilla koneilla, joissa oli myös master.
+  
+
 ## Lähteet
 
 - UFW [help.ubuntu.com](https://help.ubuntu.com/community/UFW)
