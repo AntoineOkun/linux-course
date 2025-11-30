@@ -1,5 +1,7 @@
 # Pariprojekti - Samba and UFW with Salt
 
+[Linkki projektin Git-sivuille](https://github.com/Mikko-3/samba-and-ufw-with-salt/tree/main)
+
 ## Ympäristö
 
 
