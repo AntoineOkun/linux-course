@@ -20,8 +20,6 @@
 
 ## Rakentaminen
 
-
-
 - Ensin tein asennus kansion, jossa init.sls -tiedosto hoitaa tarvittavan Samban ja UFW:n asennukset:
 
 <img width="167" height="105" alt="Screenshot 2025-11-30 at 18 45 08" src="https://github.com/user-attachments/assets/f00370c9-503c-4417-a880-a67bb372f18a" />
