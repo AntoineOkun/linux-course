@@ -22,7 +22,7 @@
 
 - Ensin tein asennus kansion, jossa init.sls -tiedosto hoitaa tarvittavan Samban ja UFW:n asennukset:
 
-<img width="167" height="105" alt="Screenshot 2025-11-30 at 18 45 08" src="https://github.com/user-attachments/assets/f00370c9-503c-4417-a880-a67bb372f18a" />
+  <img width="167" height="105" alt="Screenshot 2025-11-30 at 18 45 08" src="https://github.com/user-attachments/assets/f00370c9-503c-4417-a880-a67bb372f18a" />
 
 - Välissä tein top.sls tiedoston, kun luulin olevani helpoilla palomuurin asetusten kanssa.
 
@@ -30,13 +30,13 @@
 
 - Palomuurin asetusten kanssa oli suurin vääntö, koska en tiennyt kuinka idempotenssi saataisiin toteutettua. Olin laittanut jokaisen portinmuunnoksen samaan cmd.run -komentolinjaan, jolloin ne ajettiin jokainen... joka kerta.
 
-<img width="526" height="370" alt="Screenshot 2025-11-29 at 15 46 12" src="https://github.com/user-attachments/assets/54c1df46-33ab-48cf-9ee6-b6df8d6e4023" />
+  <img width="526" height="370" alt="Screenshot 2025-11-29 at 15 46 12" src="https://github.com/user-attachments/assets/54c1df46-33ab-48cf-9ee6-b6df8d6e4023" />
 
-<img width="231" height="103" alt="Screenshot 2025-11-29 at 15 46 24" src="https://github.com/user-attachments/assets/b1a043c0-4af3-447a-9d0d-d58f3b461f3f" />
+  <img width="231" height="103" alt="Screenshot 2025-11-29 at 15 46 24" src="https://github.com/user-attachments/assets/b1a043c0-4af3-447a-9d0d-d58f3b461f3f" />
 
 Lopulta laitoin kaikki komennot seuraavan kaltaiseen muotoon:
 
-<img width="415" height="84" alt="Screenshot 2025-11-30 at 18 34 20" src="https://github.com/user-attachments/assets/9b1003d2-7431-4958-ab2c-b448d476e7aa" />
+  <img width="415" height="84" alt="Screenshot 2025-11-30 at 18 34 20" src="https://github.com/user-attachments/assets/9b1003d2-7431-4958-ab2c-b448d476e7aa" />
 
 Ja kaikki toimi.
 
