@@ -67,7 +67,7 @@ Ajoin tilat Tero Karviselta kloonatusta kansiosta komennolla 'sudo salt-call --l
 
 ## Lähteet
 
-Karvinen, 2025: https://terokarvinen.com/palvelinten-hallinta/
-Git, Getting started: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+Karvinen, 2025: https://terokarvinen.com/palvelinten-hallinta/  
+Git, Getting started: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F  
 Git, Git Basics: https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
 
