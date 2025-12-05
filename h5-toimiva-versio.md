@@ -19,7 +19,7 @@
   - Gitin esittelyä; ero muihin vastaanvanlaisiin alustoihin
     
 - git add . && git commit; git pull && git push
-  - Ensimmäinen komento siirtää haluamat tiedostot eräänlaiselle puskurivyöhykkeelle, toinen lisäys lukitsee siirrettävän version tiedostosta ja antaa mahdollisuuden lisätä kommentin siirron kylkeen, kolmas komento tarkistaa kansioin yhtäläisyydet ja tarvittaessa päivittää työtilaan muualta tulleet muutokset, neljäs komento vie haluamat tiedot gittiin. ([git](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+  - Ensimmäinen komento siirtää haluamat tiedostot eräänlaiselle puskurivyöhykkeelle, toinen lisäys lukitsee siirrettävän version tiedostosta ja antaa mahdollisuuden lisätä kommentin siirron kylkeen, kolmas komento tarkistaa kansioin yhtäläisyydet ja tarvittaessa päivittää työtilaan muualta tulleet muutokset, neljäs komento vie haluamat tiedot gittiin. [git](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
     
 - Suolaxin historia (käännetyssä järjestyksessä)
   - Käyttäjäohjeiden kohennus
